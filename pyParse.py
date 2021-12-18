@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 
 
-rs = requests.get('https://www.bestchange.ru/')
+rs = requests.get('')
 root = BeautifulSoup(rs.content, 'html.parser')
 
 
